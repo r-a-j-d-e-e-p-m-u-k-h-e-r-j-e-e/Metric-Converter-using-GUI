@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "MetricConverter",
+            "request": "launch",
+            "mainClass": "MetricConverter",
+            "projectName": "Metric Converter using GUI_dc2907df",
+            "vmArgs": "--module-path 'C:\\Bhutu Oakland University\\Java\\javafx-sdk-19.0.2.1\\lib' --add-modules javafx.base,javafx.controls,javafx.fxml,javafx.graphics,javafx.media,javafx.swing,javafx.web"
+        }
+    ]
+}
